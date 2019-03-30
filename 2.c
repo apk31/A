@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){int num1,num2;printf("enter first number and ");printf("second number\n");scanf("%d%d",&num1,&num2 );if (num1==num2){printf("%d is equal %d\n", num1,num2);}if (num1!=num2){printf("%d is not equal %d\n", num1,num2);}if (num1<num2){printf("%d is less than %d\n", num1,num2);}if (num1>num2){printf("%d is greater than %d\n", num1,num2);}if (num1<=num2){printf("%d is less than or equal to %d\n", num1,num2);}if (num1>=num2){printf("%d is greater than or equal to %d\n", num1,num2);}return 0;}
